@@ -13,7 +13,7 @@ export GSLVERSION=gsl-1.16
 export ICU_LOCATION="http://download.icu-project.org/files/icu4c/53.1/"
 export ICUVERSION=icu4c-53_1
 
-export BOOST_LOCATION="http://sourceforge.net/projects/boost/files/boost/1.67.0/"
+export BOOST_LOCATION="https://sourceforge.net/projects/boost/files/boost/1.67.0/"
 export BOOSTVERSION=boost_1_67_0
 
 export PYTHIA6_LOCATION="https://root.cern.ch/download/"
