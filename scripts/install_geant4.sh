@@ -8,7 +8,7 @@
 if [ ! -d  $SIMPATH/transport/geant4 ];
 then
   cd $SIMPATH/transport
-  if [ ! -e $GEANT4VERSION.tar.gz ];
+  if [ ! -e t$GEANT4VERSION.tar.gz ];
   then
     echo "*** Downloading geant4 sources ***"
     download_file $GEANT4_LOCATION/$GEANT4VERSION.tar.gz

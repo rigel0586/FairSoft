@@ -3,15 +3,15 @@
 if [ ! -d  $SIMPATH/generators/HepMC ];
 then
   cd $SIMPATH/generators
-  if [ ! -e HepMC-$HEPMCVERSION.tar.gz ];
+  if [ ! -e hepmc$HEPMCVERSION.tar.gz ];
   then
     echo "*** Downloading hepmc sources ***"
-    download_file $HEPMC_LOCATION/HepMC-$HEPMCVERSION.tar.gz
+    download_file $HEPMC_LOCATION/hepmc$HEPMCVERSION.tgz
   fi
-  untar hepmc HepMC-$HEPMCVERSION.tar.gz
-  if [ -d HepMC-$HEPMCVERSION ];
+  untar hepmc hepmc$HEPMCVERSION.tgz
+  if [ -d hepmc$HEPMCVERSION ];
   then
-    ln -s HepMC-$HEPMCVERSION HepMC
+    ln -s hepmc$HEPMCVERSION HepMC
   fi
 fi
 

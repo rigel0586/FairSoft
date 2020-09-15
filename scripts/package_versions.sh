@@ -19,7 +19,7 @@ export BOOSTVERSION=boost_1_67_0
 export PYTHIA6_LOCATION="https://root.cern.ch/download/"
 export PYTHIA6VERSION=pythia6
 
-export HEPMC_LOCATION="http://lcgapp.cern.ch/project/simu/HepMC/download/"
+export HEPMC_LOCATION="http://hepmc.web.cern.ch/hepmc/releases/"
 export HEPMCVERSION=2.06.09
 
 export PYTHIA8_LOCATION="http://home.thep.lu.se/~torbjorn/pythia8/"
@@ -31,7 +31,7 @@ export XERCESCVERSION=3.1.2
 export MESA_LOCATION="ftp://ftp.freedesktop.org/pub/mesa/older-versions/7.x/7.10.3/"
 export MESAVERSION=MesaLib-7.10.3
 
-export GEANT4_LOCATION="http://geant4.cern.ch/support/source/"
+export GEANT4_LOCATION="https://geant4-data.web.cern.ch/geant4-data/releases/"
 export GEANT4VERSION=geant4.10.04.p01
 export GEANT4VERSIONp=Geant4-10.4.1
 
