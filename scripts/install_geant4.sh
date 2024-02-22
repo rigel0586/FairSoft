@@ -49,7 +49,8 @@ then
 
   if [ "$build_cpp11" = "yes" ];
   then
-    geant4_cpp="-DGEANT4_BUILD_CXXSTD=c++11"
+#    geant4_cpp="-DGEANT4_BUILD_CXXSTD=c++11"
+    geant4_cpp="-DGEANT4_BUILD_CXXSTD=11"
   else
     geant4_cpp=""
   fi
