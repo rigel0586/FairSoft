@@ -49,7 +49,8 @@ export ROOTVERSION=v6-12-06
   # export ROOTVERSION=v5-34-36
 #fi
 
-export XROOTDVERSION=4.8.3
+#export XROOTDVERSION=4.8.3
+export XROOTDVERSION=5.5.0
 
 export PLUTO_LOCATION="http://web-docs.gsi.de/%7Ehadeshyp/pluto/v5.37/"
 export PLUTOVERSION=pluto_v5.37
