@@ -33,10 +33,10 @@ export MESA_LOCATION="ftp://ftp.freedesktop.org/pub/mesa/older-versions/7.x/7.10
 export MESAVERSION=MesaLib-7.10.3
 
 export GEANT4_LOCATION="https://geant4-data.web.cern.ch/geant4-data/releases/"
-#export GEANT4VERSION=geant4.10.04.p01
-#export GEANT4VERSIONp=Geant4-10.4.1
-export GEANT4VERSION=geant4.10.07.p03
-export GEANT4VERSIONp=Geant4-10.7.3
+export GEANT4VERSION=geant4.10.04.p01
+export GEANT4VERSIONp=Geant4-10.4.1
+#export GEANT4VERSION=geant4.10.07.p03
+#export GEANT4VERSIONp=Geant4-10.7.3
 
 #export ROOT_LOCATION="http://root.cern.ch/git/root.git"
 export ROOT_LOCATION="https://github.com/root-project/root"
@@ -49,8 +49,8 @@ export ROOTVERSION=v6-12-06
   # export ROOTVERSION=v5-34-36
 #fi
 
-#export XROOTDVERSION=4.8.3
-export XROOTDVERSION=5.5.0
+export XROOTDVERSION=4.8.3
+#export XROOTDVERSION=5.5.0
 
 export PLUTO_LOCATION="http://web-docs.gsi.de/%7Ehadeshyp/pluto/v5.37/"
 export PLUTOVERSION=pluto_v5.37
