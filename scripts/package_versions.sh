@@ -65,7 +65,9 @@ export VGMDIR=VGM-4.4.0
 export GEANT4VMC_LOCATION="https://github.com/vmc-project/geant4_vmc.git"
 export GEANT4VMCBRANCH=v3-6
 
-export MILLEPEDE_LOCATION="http://svnsrv.desy.de/public/MillepedeII/tags/"
+#export MILLEPEDE_LOCATION="http://svnsrv.desy.de/public/MillepedeII/tags/"
+#export MILLEPEDE_VERSION=V04-03-04
+export MILLEPEDE_LOCATION="https://gitlab.desy.de/claus.kleinwort/millepede-ii.git/"
 export MILLEPEDE_VERSION=V04-03-04
 
 export SODIUM_LOCATION="https://github.com/jedisct1/libsodium"

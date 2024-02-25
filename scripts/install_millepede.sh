@@ -6,8 +6,11 @@ then
   cd $SIMPATH/basics
   if [ ! -d MillepedeII ];
   then
-    echo "*** Downloading MillepedeII sources with subversion***"
-    svn co $MILLEPEDE_LOCATION/$MILLEPEDE_VERSION MillepedeII
+#    echo "*** Downloading MillepedeII sources with subversion***"
+#    svn co $MILLEPEDE_LOCATION/$MILLEPEDE_VERSION MillepedeII
+     echo "*** Downloading MillepedeII sources with git***"
+     export GIT_SSL_NO_VERIFY=1
+     git clone --depth 1 --branch $MILLEPEDE_VERSION $MILLEPEDE_LOCATION MillepedeII
   fi
 fi
 
